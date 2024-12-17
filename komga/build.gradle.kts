@@ -1,4 +1,3 @@
-
 import nu.studer.gradle.jooq.JooqGenerate
 import org.apache.tools.ant.taskdefs.condition.Os
 import org.flywaydb.gradle.task.FlywayMigrateTask
@@ -51,6 +50,7 @@ dependencies {
   implementation("org.springframework.session:spring-session-core")
   implementation("com.github.gotson:spring-session-caffeine:2.0.0")
   implementation("org.springframework.data:spring-data-commons")
+  implementation("org.springframework.security:spring-security-ldap")
 
   kapt("org.springframework.boot:spring-boot-configuration-processor:3.4.0")
 
